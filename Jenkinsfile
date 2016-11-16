@@ -1,5 +1,5 @@
 
 node {
 sh 'java -version'
-sh 'gradle -version'
+sh './gradlew hello'
 }

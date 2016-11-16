@@ -1,0 +1,9 @@
+
+
+task wrapper(type: Wrapper) {
+  gradleVersion = "3.1"
+}
+
+task hello << {
+   println "Hello there" 
+}
