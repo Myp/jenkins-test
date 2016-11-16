@@ -1,6 +1,6 @@
 
 node {
-scm checkout
+checkout scm
 sh 'java -version'
 sh './gradlew hello'
 }
