@@ -1,2 +1,4 @@
 
-echo 'Hello pipeline'
+
+sh 'java -version'
+sh 'gradle -version'
